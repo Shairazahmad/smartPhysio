@@ -1,0 +1,51 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.python-version
+
+# Configuration and secret files
+*.env
+*.env.*
+
+# Logs and runtime files
+*.log
+*.pid
+*.out
+*.err
+instance/
+*.sqlite3
+*.db
+*.bak
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage results
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest cache
+.pytest_cache/
+
+# Flask-specific
+migrations/

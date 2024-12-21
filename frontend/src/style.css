@@ -1,0 +1,28 @@
+.svg-container {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  cursor: pointer;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  display: block;
+}
+
+.svg-container {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.clickable {
+  transition: fill 0.3s ease;
+}
+
+.clickable:hover {
+  fill: #aaa; /* Highlight on hover */
+  cursor: pointer;
+}
