@@ -13,16 +13,7 @@ function App() {
     setAiResponse(response.data.advice);
   };
 
-  return (
-    <div>
-      <h1>Smart Physiotherapist</h1>
-      {!selectedBodyPart ? (
-        <AnatomySVG onSelectBodyPart={setSelectedBodyPart} />
-      ) : (
-        <MultiStepForm bodyPart={selectedBodyPart} onSubmit={handleSubmit} />
-      )}
-      <ResponseDisplay response={aiResponse} />
-    </div>
+  return ({}
   );
 }
 
